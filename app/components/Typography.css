@@ -1,0 +1,117 @@
+.typography {
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  margin-bottom: var(--spacing-04);
+  overflow-wrap: break-word;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.typography--color-primary {
+  color: var(--text-primary);
+}
+
+.typography--color-secondary {
+  color: var(--text-secondary);
+}
+
+.typography--color-error {
+  color: var(--error);
+}
+
+.typography--size-small {
+  font-size: 0.75rem;
+  line-height: 1.17;
+}
+
+.typography--size-large {
+  font-size: 1.125rem;
+  line-height: 1.33;
+}
+
+.typography--size-h1 {
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+.typography--size-h2 {
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+.typography--size-h3 {
+  font-size: 1.125rem;
+  line-height: 1.22;
+}
+
+.typography--size-h4 {
+  font-size: 0.875rem;
+  line-height: 1.14;
+}
+
+.typography--heading-h1 {
+  margin-bottom: var(--spacing-05);
+}
+
+.typography--heading-h2 {
+  margin-bottom: var(--spacing-04);
+}
+
+.typography--heading-h3 {
+  margin-bottom: var(--spacing-02);
+}
+
+.typography--heading-h4 {
+  margin-bottom: var(--spacing-01);
+}
+
+.typography--inline {
+  display: inline-block;
+  margin: 0;
+}
+
+.typography--heading-h1,
+.typography--heading-h2,
+.typography--heading-h3,
+.typography--heading-h4 {
+  display: block;
+  font-weight: 600;
+}
+
+.typography--weight-bold {
+  font-weight: bold;
+}
+
+.typography--weight-semibold {
+  font-weight: 600;
+}
+
+.typography--style-italic {
+  font-style: italic;
+}
+
+.typography--align-center {
+  text-align: center;
+}
+
+.typography--overflow-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.typography--superscript {
+  font-size: 60%;
+  vertical-align: super;
+}
+
+.typography--subscript {
+  font-size: 60%;
+  vertical-align: sub;
+}
+
+.typography--transform-capitalize {
+  text-transform: capitalize;
+}

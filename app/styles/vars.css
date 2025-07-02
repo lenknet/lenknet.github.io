@@ -1,0 +1,45 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+
+  /* Spacing */
+  --spacing-01: 0.25rem;
+  --spacing-02: 0.5rem;
+  --spacing-03: 0.75rem;
+  --spacing-04: 1rem;
+  --spacing-05: 1.5rem;
+  --spacing-06: 2rem;
+  --spacing-08: 3rem;
+  --spacing-11: 4.5rem;
+  --spacing-12: 6rem;
+  --spacing-15: 12rem;
+  --spacing-16: 16rem;
+
+  /* Width */
+  --page-width: 800px;
+
+  /* CSS HEX */
+  --gunmetal: #2d3142ff;
+  --silver: #bfc0c0ff;
+  --white: #ffffffff;
+  --coral: #ef8354ff;
+  --paynes-gray: #4f5d75ff;
+
+  /* Colors */
+  --dark-grey: #333132;
+  --mid-grey: #b5b5ba;
+  --light-grey: #f2f3f4;
+  --white: #fff;
+  --black: #000;
+  --error: #d63624;
+  --success: #45a93e;
+  --info: #1698fc;
+  --warning: #e17a19;
+  --transparent: rgba(255, 255, 255, 0);
+  --divider: #e0e0e0;
+
+  /* Shadows */
+  --shadow-subtle: 0 2px 4px 0 rgba(181, 181, 186, 0.1), 0 1px 2px 0 rgba(51, 49, 50, 0.1);
+  --shadow-emphasized: 0 5px 10px 0 rgba(51, 49, 50, 0.1), 0 1px 2px 0 rgba(51, 49, 50, 0.1);
+  --shadow-sharp: 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  --shadow-floating: 0 20px 40px 0 rgba(51, 49, 50, 0.2), 0 2px 4px 0 rgba(51, 49, 50, 0.15);
+}

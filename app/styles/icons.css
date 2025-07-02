@@ -1,0 +1,16 @@
+.icon {
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.icon--small {
+  height: 1rem;
+  width: 1rem;
+}
+
+.icon.square-3-stack-3d {
+  content: url("../icons/square-3-stack-3d.svg");
+  fill: var(--coral);
+  color: var(--coral);
+}

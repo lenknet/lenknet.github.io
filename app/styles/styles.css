@@ -1,0 +1,27 @@
+@import url("./reset.css");
+@import url("./vars.css");
+@import url("./icons.css");
+
+html,
+body,
+#root {
+  line-height: 1.5;
+  height: 100%;
+  width: 100%;
+}
+
+hr {
+  height: 1px;
+  background-color: var(--lines);
+  width: 100%;
+  border: none;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--text-primary);
+  height: 100%;
+  font-size: 0.875rem;
+  line-height: 1.14;
+  background-color: var(--gunmetal);
+}
